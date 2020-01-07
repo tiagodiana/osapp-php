@@ -1,0 +1,60 @@
+main{
+    margin: 0;
+    padding: 0;
+}
+.font-arial{
+    font-family: arial;
+    font-size: 16pt;
+}
+.titulo-inicio{
+    cursor:pointer;
+    width: 80%;
+    text-align: center;
+    margin:80px auto 0 auto;
+    padding: 50px 0;
+    font-family:Dialog;
+    color: rgba(13, 18, 24, 0.99);
+    text-shadow: 2px 2px 2px white;
+    border-radius:20px 20px;
+    border-style: solid;
+    border: 5px solid rgba(0,0,0,.5) ;
+    background-color: rgba(30,144,255,.5);
+}
+.informacao{
+    width: 100%;
+    text-align: center;
+    min-height: 200px;
+    background-color: #dddddd;
+    display: none;
+}
+
+.informacao p{
+    padding:30px 0 40px 0;
+    text-indent: 20px;
+    text-align: center ;
+    font-family: Cantarell;
+    font-size:18pt;
+
+}
+
+
+
+.footer-bg{
+    background-color: rgba(0,0,0,.9);
+    margin-top: 35px;
+}
+
+.footer-font{
+    color: rgba(255,255,255,.8);
+    font-family: "Arial";
+    font-size: 14pt;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1150px) {
+    .data{
+        font-size: 10pt;
+    }
+}
